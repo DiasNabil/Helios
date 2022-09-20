@@ -1,0 +1,354 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: 'din';
+    src: url(../media/typo/DIN-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'd-din';
+    src: url(../media/typo/D-DINCondensed.ttf);
+}
+
+
+
+@media screen and (aspect-ratio: 16 / 9){}
+
+section {overflow: hidden;}
+body {
+    background-image: url(../media/back.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    
+
+    color: black;
+    font-family: 'din';
+    font-weight: bold;
+}
+
+a { text-decoration: none; color: black;}
+
+.button {
+    font-weight: lighter;
+    position: relative;
+}
+
+.order {
+    color: #1A94A3;
+    background-color: #1A94A3;
+    padding: 8px;
+    border-radius: 21px;
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
+    
+}
+
+.order2 {
+    position: absolute;
+    bottom:8px;
+    left: 8px;
+    color: white;
+
+}
+
+/* HEADER */
+
+header { 
+    padding: 0 24px;
+}
+
+header .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+header .logotypo  {
+    height: 15vh;
+    margin-left: 0em;
+    margin-right: 5em;
+    
+}
+
+header ul {
+    padding: 0; 
+
+    display: -webkit-box; 
+
+    display: -ms-flexbox; 
+
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    list-style: none;  
+
+    gap: 100px;
+}
+
+header .tete:hover {
+    text-decoration: underline ;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3.5px;
+
+}
+
+header .actions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 50px;
+
+}
+
+
+/* FOOTER */
+
+
+
+footer .container {
+    background-color: white;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+footer .first { 
+ 
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: CENTER;
+        -ms-flex-pack: CENTER;
+            justify-content: CENTER;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+footer .list {
+    width: 45vw;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+footer ul {
+    list-style: none;
+    font-weight: bold;
+    
+}
+
+footer .li {
+    font-size: 13px;
+    margin-top: 7px;
+}
+footer li {
+    margin-top: 5px;
+    color:rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+}
+
+footer form {
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+
+    height: 21.25vh;
+
+}
+
+footer label {
+    font-weight: bold;
+}
+
+footer .mail {
+    border-bottom: 1px solid black;
+    color:rgba(0, 0, 0, 0.85);
+
+    
+    padding: 2px;
+}
+
+footer input {
+    border: solid white;  
+    background-color: white;  
+    font-family: 'din';
+    font-size: 13px;
+    font-weight: bolder;
+    
+}
+
+footer .submit {cursor: pointer;}
+
+footer input:focus-visible{
+    outline: solid white;  
+}
+::-webkit-input-placeholder  {
+    color: black;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: black;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: black;
+    opacity: 1;
+}
+
+
+footer .sign {
+    font-size: 9px;
+    color:rgba(0, 0, 0, 0.85)
+}
+
+footer .second {
+    width: 100vw;
+    
+
+    display: -webkit-box;
+    
+
+    display: -ms-flexbox;
+    
+
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    
+}
+
+footer .logo {
+    height: 15vh;
+    margin-left: 250px;
+
+    cursor: pointer;
+}
+
+footer .social {
+    margin-right: 225px;
+    cursor: pointer;
+}
+
+footer .rond {
+    height: 5vh;
+    margin: 3px;
+}
+
+
+footer .foot {
+    
+    width: 100vw;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: 250px;
+    margin-right: 225px;
+    margin-bottom: 20px;
+
+    font-size: 13px;
+    font-weight: light;
+    color:rgba(0, 0, 0, 0.85)
+}
+
+footer .foot .right {
+   
+    width: 30vw;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+footer select {
+    border: solid white;  
+    background-color: white;  
+    font-family: 'din';
+    
+}
+
+footer select:focus-visible{
+    outline: solid white;  
+}
