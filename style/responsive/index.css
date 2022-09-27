@@ -2,24 +2,6 @@
 /* standard */
 
 
-body {
-
-    width: 100%;
-    min-width: 1000px;
-    background-image: url(../media/back.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    margin: 0;
-
-    
-    
-
-    color: black;
-    font-family: 'din';
-    font-weight: bold;
-}
-
 
 .scroll {
 
