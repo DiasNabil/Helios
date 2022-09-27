@@ -7,17 +7,8 @@ section {
     
     margin-bottom: 10em;
 
-    display: -webkit-box;
-
-    display: -ms-flexbox;
-
     display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
             justify-content: start;
-    
-    
-    -ms-flex-wrap: wrap;
     
     
         flex-wrap: wrap;
@@ -29,59 +20,28 @@ section {
 
 .box {
 
-    display: -ms-grid;
-
     display: grid;
-    -ms-grid-columns: 3fr;
+    
     grid-template-columns: 3fr;
-    -ms-grid-rows: 3fr 0px 1fr;
     grid-template-rows: 3fr 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 
     margin: 5em 0;
 }
-
-.box > *:nth-child(1) {
-    
-    -ms-grid-row: 1;
-    
-    -ms-grid-column: 1;
-}
-
-.box > *:nth-child(2) {
-    
-    -ms-grid-row: 3;
-    
-    -ms-grid-column: 1;
-}
-    
+ 
 .cadre { 
-    -ms-grid-row: 1; 
-    -ms-grid-row-span: 1; 
-    -ms-grid-column: 1; 
-    -ms-grid-column-span: 1; 
     grid-area: 1 / 1 / 2 / 2; 
-
 
     background-color: rgba(255, 255, 255, 0.35);
     border-radius: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+
     display: flex;
     cursor: pointer;
 }
 
 .name-price { 
     font-size: 0.8em;
-    
-    -ms-grid-row: 2;
-    
-    -ms-grid-row-span: 1;
-    
-    -ms-grid-column: 1;
-    
-    -ms-grid-column-span: 1;
     
     grid-area: 2 / 1 / 3 / 2; 
     text-align: center;
@@ -90,7 +50,7 @@ section {
     height: 50px;
 }
 
-p {
+.name-price p {
     font-family: 'd-din';
     font-weight: lighter;
     font-size: 20px;

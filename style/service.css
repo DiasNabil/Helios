@@ -2,31 +2,16 @@
 /*SECTION */
 
 section {
-    
-    width: 90vw;
   
     margin:auto;
 
     margin-top: 5em;
     margin-bottom: 10em;
 
-    display: -webkit-box;
-
-    display: -ms-flexbox;
-
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
             flex-direction: column;
 
-    -webkit-box-pack: center;
-
-        -ms-flex-pack: center;
-
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
             align-items: center;
 }
 
@@ -49,46 +34,32 @@ section {
     
     border-radius: 39px;
     
-    height: 90vh;
+    
     margin: 0px;
     margin-bottom: 10em;
 
 
     background-color: rgba(255, 255, 255, 0.40);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    
     display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
             justify-content: start;
-    -webkit-box-align: row;
-        -ms-flex-align: row;
             align-items: row;
-    -ms-flex-wrap: wrap;
         flex-wrap: wrap;
 }
 
 .box2 {
     
     border-radius: 39px;
-    width: 50%;
-    height: 50vh;
 
     margin: auto;
     margin-bottom: 75px;
 
 
     background-color: rgba(255, 255, 255, 0.40);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    
     display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
             justify-content: start;
-    -webkit-box-align: row;
-        -ms-flex-align: row;
             align-items: row;
-    -ms-flex-wrap: wrap;
         flex-wrap: wrap;
 }
 
